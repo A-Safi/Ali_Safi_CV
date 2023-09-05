@@ -142,11 +142,10 @@ includefoot]{geometry}
 % and can be downloaded for free at <http://www.fontsquirrel.com/fonts/tinos>.
 % Symbol table: <http://www.fileformat.info/info/unicode/font/tinos/grid.htm>
 \setmainfont
-[Path=./Fonts/Tinos/,
-ItalicFont=Tinos-Italic,
-BoldFont=Tinos-Bold,
-BoldItalicFont=Tinos-BoldItalic]
-{Tinos-Regular.ttf}
+[ItalicFont=timesi,
+BoldFont=timesbd,
+BoldItalicFont=timesbi]
+{times.ttf}
 
 % Secondary font: "GNU FreeFont".
 % The "GNU FreeFont" fonts are released under the
@@ -173,7 +172,7 @@ BoldItalicFont=FreeSerifBoldItalic]
 \newcommand{\UseHeadingFont}{\normalfont}
 \newcommand{\UseHeaderFooterFont}{\UseHeadingFont\fontsize{9.2pt}{10.5pt}\selectfont}
 \newcommand{\UseNoteFont}{\UseHeadingFont\fontsize{9pt}{10.6pt}\selectfont}
-\newcommand{\UseTitleFont}{\UseHeadingFont\fontsize{29pt}{34.6pt}\selectfont\bfseries}
+\newcommand{\UseTitleFont}{\UseHeadingFont\fontsize{22pt}{34.6pt}\selectfont\bfseries\color{Forestg}}
 \newcommand{\UseSubTitleFont}{\normalfont\fontsize{9.6pt}{11.3pt}\selectfont}
 \newcommand{\UseSectionFont}{\UseHeadingFont\fontsize{10pt}{12pt}\selectfont\bfseries}
 \newcommand{\UseSubSectionFont}{\UseHeadingFont\fontsize{9pt}{10.6pt}\selectfont\bfseries}
@@ -241,12 +240,12 @@ BoldItalicFont=FreeSerifBoldItalic]
 % Macro: Body (rest of the document).
 \newenvironment{Body}
 {%
-\par\vspace{1.5\baselineskip}%
+\par\vspace{0.5\baselineskip}%
 \begin{list}
 {}
-{\setlength\leftmargin{1.2in}%
+{\setlength\leftmargin{0.2in}%
 \setlength\rightmargin{0in}%
-\setlength\labelwidth{1.2in}%
+\setlength\labelwidth{0.2in}%
 \setlength\labelsep{0in}%
 \setlength\listparindent{0in}%
 \setlength\itemindent{0in}%
@@ -272,7 +271,7 @@ BoldItalicFont=FreeSerifBoldItalic]
 % Macro: Section (new section for Education, Research Experience, etc.).
 \newcommand{\Section}[3]
 {\par\pdfbookmark[2]{#2}{#3}%
-\item[\smash{\parbox[t]{1.2in}{\UseSectionFont\raggedright\textcolor{Forestg}{\colorbox{white}{\MakeUppercase{#1}}}}}]%
+\item[\smash{\parbox[t]{0.2in}{\UseSectionFont\raggedright\textcolor{Forestg}{\colorbox{white}{\MakeUppercase{#1}}}}}]%
 \par}
 
 % Macro: SubSection.

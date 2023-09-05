@@ -4,7 +4,7 @@
 % vim: set fenc=utf-8
 % Resume
 
-\documentclass[a4paper,MMMyyyy,nonstopmode]{ResumeTemplate}
+\documentclass[letterpaper,MMMyyyy,nonstopmode]{ResumeTemplate}
 % Class options:
 % a4paper, letterpaper, nonstopmode, draftmode
 % MMMyyyy, ddMMMyyyy, MMMMyyyy, ddMMMMyyyy, yyyyMMdd, yyyyMM, yyyy
@@ -12,12 +12,12 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% PREAMBLE.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+\usepackage{array}
 % CV Info (to be customized).
 \newcommand{\CVAuthor}{Ali Safi}
 \newcommand{\CVTitle}{Ali Safi's CV for University Application}
 \newcommand{\CVNote}{CV compiled on {\today} for University Application}
-\newcommand{\CVWebpage}{https://www.ControlScience.ir/Contact}
+\newcommand{\CVWebpage}{https://ControlScience.ir/About}
 
 % PDF settings and properties.
 \hypersetup{
@@ -51,55 +51,39 @@ breaklinks}
 % TITLE BLOCK %
 %%%%%%%%%%%%%%%
 \centering
-\par
-\textcolor{Forestg}{\qrcode[height=1.8cm]{https://www.linkedin.com/in/safi-ali}}
-\par \href{https://www.linkedin.com/in/safi-ali}{Linkedin \includegraphics[height=9pt]{icons/hand-cursor.png}} 
-
 \Title{\CVAuthor} 
 \begin{SubTitle}
-\href{https://www.google.com/maps/place/8H5GF7CC\%2BPM/@33.4718125,50.2716875,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d33.4718125!4d50.2716875}
-{\includegraphics[height=8pt]{icons/locations.png} No 45, 8th Alley, Shahid Beheshti Blvd, Golpayegan, Esfahan, Iran}
-\par
-\href{mailto:ali.safi.eng@gmail.com}
-{\includegraphics[height=7pt]{icons/SendEmail.png} Ali.safi.eng@gmail.com}
+{\includegraphics[height=8pt]{icons/locations.png} Golpayegan, Isfahan, Iran}
+\,\SubBulletSymbol\,
+{\includegraphics[height=7pt]{icons/SendEmail.png} Ali\_Safi@alumni.iust.ac.ir}
 \,\SubBulletSymbol\,
 \includegraphics[height=7pt]{icons/phone1.png}  +98\,(937)\,806-8264
+\par
+\href{https://www.controlscience.ir/about}{Website: ControlScience.ir/about \includegraphics[height=9pt]{icons/hand-cursor.png}} 
 \,\SubBulletSymbol\,
-\href{\CVWebpage}
-{\url{\CVWebpage}  \includegraphics[height=9pt]{icons/hand-cursor.png}}
+\href{https://www.linkedin.com/in/safi-ali}{Linkedin: Linkedin.com/in/Safi-Ali \includegraphics[height=9pt]{icons/hand-cursor.png}} 
 \end{SubTitle}
-
-\textcolor{Forestg}{\hrule height 0.1cm}
-
 \begin{Body}
-%%%%%%%%%%
-%% Summery %%
-%%%%%%%%%%
-\Section
-{Summery}
-{Summery}
-{PDF:Summery}
-\enspace A Researcher in Both Mechanical and Control Engineering, Also Interested in Mechatronics and Automation, Highly Experienced in MATLAB and Arduino Programming, English as a Second Language, Capable of Designing Electrical Circuits and Applying Control Theories in Real Life.
 
-\textcolor{Forestg}{\hrule height 0.1cm}
+%%%%%%%%%%
+%% Education %%
+%%%%%%%%%%
 
 \Section
 {Education}
 {Education}
 {PDF:Education}
-
+\textcolor{Forestg}{\vspace{0.05cm}\hrule height 0.1cm}\BigGap
 \Entry
-\href{http://iust.ac.ir/en}
-{\textcolor{black}{\textbf{Iran University of Science and Technology}}, Tehran, Iran} \includegraphics[height=9pt]{icons/hand-cursor.png}
-
+{\textcolor{black}{\textbf{Iran University of Science and Technology}}, Tehran, Iran}
+\hfill
+{\DatestampYMD{2018}{09}{23} --
+	\DatestampYMD{2021}{02}{03}}
 \Gap
 \BulletItem
 M.Sc. in
-\href{http://mech.iust.ac.ir/en}
 {Mechanical Engineering \small{(Control, Dynamics and Vibrations)}}
-\hfill
-{\DatestampYMD{2018}{09}{23} --
-\DatestampYMD{2021}{02}{03}}
+
 \begin{Detail}
 \SubBulletItem
 Thesis:
@@ -111,91 +95,232 @@ Dr.~Esmaeel~Khanmirza
 Focus:
 Hybrid dynamical systems, Hybrid control
 \SubBulletItem
-Graduated with Honors
-\SubBulletItem
-Cumulative GPA: 18.06 / 20
+GPA: 18.06 / 20
 \end{Detail}
 
 
 \BigGap
 \Entry
-\href{http://gut.ac.ir/en}
 {\textcolor{black}{\textbf{Golpayegan University of Technology}},
-Golpayegan, Esfahan, Iran} \includegraphics[height=9pt]{icons/hand-cursor.png}
+Golpayegan, Isfahan, Iran}
+\hfill
+\DatestampYMD{2014}{09}{23} --
+\DatestampYMD{2018}{06}{23}
 \Gap
 \BulletItem
 B.Sc. in
 {General Mechanical Engineering}
-\hfill
-\DatestampYMD{2014}{09}{23} --
-\DatestampYMD{2018}{06}{23}
+
 \begin{Detail}
+\SubBulletItem
+Thesis: Control Design and Implementation of a Ball and Beam Device
 \SubBulletItem
 Adviser:
 Dr.~Mostafa~Nasiri
 \SubBulletItem
-Graduated with Honors
-\SubBulletItem
-Cumulative GPA: 18.96 / 20
+GPA: 18.96 / 20
 \end{Detail}
 
-%%%%%%%%%%%%%%%%%%
-%% PUBLICATIONS %%
-%%%%%%%%%%%%%%%%%%
 
-\textcolor{Forestg}{\hrule height 0.1cm}
+%%%%%%%%%%%%%%%
+%% INTERESTS %%
+%%%%%%%%%%%%%%%
+
 \Section
-{Publications}
-{Publications}
-{PDF:Publications}
+{Interests}
+{Interests}
+{PDF:Interests}
+\textcolor{Forestg}{\vspace{0.05cm}\hrule height 0.1cm}\BigGap
+\Entry
 
-\SubSection
-{Journals}
-{Journals}
-{PDF:Journals}
+\begin{center}
+	\begin{tabular}{ m{8cm} m{8cm} }
+		\BulletItem
+		Control Theories
+		\SubBulletItem
+		Model Predictive Control (MPC)
+		\SubBulletItem
+		Linear Matrix Inequality (LMI)
+		\SubBulletItem
+		Sliding Mode Control (SMC)
+		\SubBulletItem
+		Adaptive Control & \BulletItem
+		Hybrid Dynamical Systems
+		\BulletItem
+		Delay Effect Analysis
+		\BulletItem
+		Mechatronics
+		\BulletItem
+		Internet of Things (IoT)
+		\BulletItem
+		Automation
+	\end{tabular}
+\end{center}
 
-% Declare a new group to limit the scope of \MaxNumberedItem to this subsection.
-\begingroup
-\renewcommand{\MaxNumberedItem}{[88]}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Research EXPERIENCE %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\BigGap
-\NumberedItem{[1]}
-\href{https://link.springer.com/article/10.1007/s12206-019-0301-6}
-{Nasiri, M. and \underline{A. Safi}, Stability analysis of real-time hybrid simulation in consideration of time delays of actuator and shake table using delay differential equations. \textit{Journal of Mechanical Science and Technology}, 2019. 33(4): p. 1489-1499.} \includegraphics[height=9pt]{icons/hand-cursor.png}
 
+\Section
+{Research Experience}
+{Research Experience}
+{PDF:Research Experience}
+\textcolor{Forestg}{\vspace{0.05cm}\hrule height 0.1cm}\BigGap
+%%%%
+\Entry
+\vspace{5pt}
+\textbf{Research And Development Specialist}
+\hfill
+\DatestampYMD{2023}{7}{1} – Present
 \Gap
-\NumberedItem{[2]}
-\href{https://ceej.aut.ac.ir/article_2911.html}
-{Nasiri, M. and \underline{A. Safi}, Stability Anaysis of Real-time Hybrid Simulation for a Multi-story Structure Considering Time-delay of Hydrolic Actuator. \textit{Amirkabir Journal of Civil Engineering}, 2019. 51(3): p. 391-400. (Persian)}
-\includegraphics[height=9pt]{icons/hand-cursor.png}
-\endgroup
+\BulletItem
+Dolfa Robotics
+\SubBulletItem
+Principal Investigator: Mrs. Maryam Jamali
 
-\BigGap
-\SubSection
-{Conferences}
-{Conferences}
-{PDF:Conferences}
-% Declare a new group to limit the scope of \MaxNumberedItem to this subsection.
-\begingroup
-\renewcommand{\MaxNumberedItem}{[88]}
-\BigGap
-\NumberedItem{[3]}
-\href{https://ieeexplore.ieee.org/document/9118277}
-{\underline{Safi, A}. and E. Khanmirza. A Criticism of Position Control of the Inverted Pendulum with Biased Angle Measurements Using Double-Loop PID. in \textit{2020 Advances in Science and Engineering Technology International Conferences (ASET)}. 2020. Dubai, United Arab Emirates.}
-\includegraphics[height=9pt]{icons/hand-cursor.png}
-\endgroup
+\Entry
+\vspace{5pt}
+\textbf{Mechatronics Engineer}
+\hfill
+\DatestampYMD{2021}{1}{1} – \DatestampYMD{2021}{6}{1}
+\Gap
+\BulletItem
+Electro Samane Alvand (ELSA)
+\SubBulletItem
+Design, Construction, Calibration and Software Development of an Electric Motor Testing Dynamometer 
+\SubBulletItem
+Parameter Estimation of a Single-Phase Axial Flux Induction Motor (Hardware and Software Development) 
+\SubBulletItem
+Chief Executive Officer: Mr. Mohsen Fayazi
 
+%%%%%
+
+\Entry
+\vspace{5pt}
+\textbf{Research Assistant}
+\hfill
+Winter \DatestampY{2020}
+\Gap
+\BulletItem
+Iran University of Science and Technology
+\SubBulletItem
+Building and Controlling of an Inverted Pendulum Device
+\SubBulletItem
+Supervisor: Dr. Esmaeel Khanmirza
+\begin{Detail}
+	\qquad In cooperation with Iran's National Elites Foundation
+\end{Detail}
+
+%%%
+
+\Entry
+\vspace{5pt}
+\textbf{Internet of Things Developer}
+\hfill
+\DatestampYMD{2019}{09}{1} –
+\DatestampYMD{2020}{03}{1}
+\Gap
+\BulletItem
+Pars System Energy
+\SubBulletItem
+Designing a Temperature and Pressure Monitoring System of a Powerhouse
+\SubBulletItem
+Chief Executive Officer: Dr. Saeed Jani
+%%%
+\Entry
+\vspace{5pt}
+\textbf{Cooperative Education Student}
+\hfill
+Fall \DatestampY{2019}
+\Gap
+\BulletItem
+Iran University of Science and Technology
+\SubBulletItem
+Routing and Controlling of a Two-wheeled Mobile Robots and Avoiding Collisions by Using Model Predictive Control and Optimal Feedback Control
+\SubBulletItem
+Supervisor: Dr. Esmaeel Khanmirza
+\begin{Detail}
+	\qquad In cooperation with Iran's National Elites Foundation
+\end{Detail}
+
+
+
+%%%%%%%%%%%%%%%%%
+%% Teaching Experience %%
+%%%%%%%%%%%%%%%%%
+\Section
+{Teaching Experience}
+{Teaching Experience}
+{PDF:Teaching Experience}
+\textcolor{Forestg}{\vspace{0.05cm}\hrule height 0.1cm}\BigGap
+
+%%%
+
+\Entry
+\textcolor{black}{\textbf{Teaching Assistant}}
+\hfill
+Winter \DatestampY{2020}
+\Gap
+\BulletItem
+Iran University of Science and Technology
+\newline
+Adaptive Control
+\begin{Detail}
+	\qquad In cooperation with Iran's National Elites Foundation
+\end{Detail}
+
+%%%
+
+\Entry
+\vspace{5pt}
+\textbf{Teacher}
+\hfill
+Summer \DatestampY{2018}
+\Gap
+\BulletItem
+English Teacher at Daemi languages institute
+
+%%%
+
+\Entry
+\textcolor{black}{\textbf{Teaching Assistant}}
+\Gap
+\BulletItem
+Golpayegan University of Engineering
+\newline
+Industrial Automation
+\hfill
+Winter \DatestampY{2018}
+%%%%
+\newline
+Dynamics
+\hfill
+Fall \DatestampY{2017}
+%%%
+\newline
+Design of Machine Components (1)
+\hfill
+Winter \DatestampY{2017}
+%%%%
+\newline
+Engineering Mathematics 
+\hfill
+Fall \DatestampY{2016}
+%%%%
+\newline
+Engineering Technical Drawing (1) 
+\hfill
+Winter \DatestampY{2016}
 %%%%%%%%%%%%%%%%%
 %% AWARDS & SCHOLARSHIPS %%
 %%%%%%%%%%%%%%%%%
-
-\textcolor{Forestg}{\hrule height 0.1cm}
 
 \Section
 {Honors}
 {Honors}
 {PDF:Honors}
-
+\textcolor{Forestg}{\vspace{0.05cm}\hrule height 0.1cm}\BigGap
 \Gap
 \BulletItem
 2 Times Winner of The Iran's National Elite Foundation Scholarship Award\\
@@ -222,7 +347,7 @@ Cumulative GPA: 18.96 / 20
 \DatestampY{2014} -- \DatestampY{2018}
 \begin{Detail}
 	\Item
-	Golpayegan University of Technology, Golpayegan, Esfahan, Iran.
+	Golpayegan University of Technology, Golpayegan, Isfahan, Iran.
 \end{Detail}
 
 \Gap
@@ -251,161 +376,114 @@ Entrance to Iran University of Science and Technology Without Entrance Exam for 
 \DatestampY{2018}
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% EXPERIENCE %%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%
+%% PUBLICATIONS %%
+%%%%%%%%%%%%%%%%%%
 
-\textcolor{Forestg}{\hrule height 0.1cm}
 
 \Section
-{Experience}
-{Experience}
-{PDF:Experience}
+{Publications}
+{Publications}
+{PDF:Publications}
+\textcolor{Forestg}{\vspace{0.05cm}\hrule height 0.1cm}\BigGap
+\SubSection
+{Journals}
+{Journals}
+{PDF:Journals}
 
-\Entry
-\textcolor{black}{\textbf{Teaching Assistant}}
-\Gap
-\BulletItem
-\href{https://www.linkedin.com/company/golpauni/?originalSubdomain=de}{Golpayegan University of Engineering}
-\newline
-Engineering Technical Drawing (1) 
-\hfill
-Winter \DatestampY{2016}
-%%%%
-\newline
-Engineering Mathematics 
-\hfill
-Fall \DatestampY{2016}
-%%%%
-\newline
-Design of Machine Components (1)
-\hfill
-Winter \DatestampY{2017}
-%%%%
-\newline
-Dynamics
-\hfill
-Fall \DatestampY{2017}
-%%%%
-\newline
-Industrial Automation
-\hfill
-Winter \DatestampY{2018}
-\BulletItem
-\href{https://www.linkedin.com/school/iran-university-of-science-and-technology}{Iran University of Science and Technology}
-\newline
-Adaptive Control
-\hfill
-Winter \DatestampY{2020}
-\begin{Detail}
-	\qquad In cooperation with Iran's National Elites Foundation
-\end{Detail}
-%%%%
-\Entry
-\vspace{5pt}
-\textbf{Teacher}
-\Gap
-\BulletItem
-English Teacher at Daemi languages institute
-\hfill
-Summer \DatestampY{2018}
-%%%%
-\Entry
-\vspace{5pt}
-\textbf{Cooperative Education Student}
-\Gap
-\BulletItem
-\href{https://www.linkedin.com/school/iran-university-of-science-and-technology}{Iran University of Science and Technology}
-\hfill
-Fall \DatestampY{2019}
-\begin{Detail}
-\qquad In cooperation with Iran's National Elites Foundation
-\end{Detail}
+% Declare a new group to limit the scope of \MaxNumberedItem to this subsection.
+\begingroup
+\renewcommand{\MaxNumberedItem}{[88]}
 
-%%
-\Entry
-\vspace{5pt}
-\textbf{Internet of Things Developer}
-\Gap
-\BulletItem
-\href{https://pseco.net/}{Pars System Energy}
-\hfill
-\DatestampYMD{2019}{09}{1} –
-\DatestampYMD{2020}{03}{1}
+\BigGap
+\NumberedItem{[1]}
+\href{https://ceej.aut.ac.ir/article_2911.html}
+{\underline{A. Safi}, A. Taghavian and E. Khanmirza, A review on benchmarks Examples for dynamical hybrid systems controller synthesis to facilitate its selection process. \textit{Space Science, Technology and Applications}, 2023. 2(2): p. 115-134. (Persian)}
+\includegraphics[height=9pt]{icons/hand-cursor.png}
 
-\Entry
-\vspace{5pt}
-\textbf{Research Assistant}
 \Gap
-\BulletItem
-\href{https://www.linkedin.com/school/iran-university-of-science-and-technology}{Iran University of Science and Technology}
-\hfill
-Winter \DatestampY{2020}
-\begin{Detail}
-	\qquad In cooperation with Iran's National Elites Foundation
-\end{Detail}
+\NumberedItem{[2]}
+\href{https://link.springer.com/article/10.1007/s12206-019-0301-6}
+{Nasiri, M. and \underline{A. Safi}, Stability analysis of real-time hybrid simulation in consideration of time delays of actuator and shake table using delay differential equations. \textit{Journal of Mechanical Science and Technology}, 2019. 33(4): p. 1489-1499.} \includegraphics[height=9pt]{icons/hand-cursor.png}
 
-\Entry
-\vspace{5pt}
-\textbf{Mechatronics Engineer}
 \Gap
-\BulletItem
-\href{https://www.linkedin.com/company/electro-samane-alvand-elsa/mycompany/}{Electro Samane Alvand (ELSA)}
-\hfill
-\DatestampYMD{2021}{1}{1} – \DatestampYMD{2021}{6}{1}
+\NumberedItem{[3]}
+\href{https://ceej.aut.ac.ir/article_2911.html}
+{Nasiri, M. and \underline{A. Safi}, Stability Anaysis of Real-time Hybrid Simulation for a Multi-story Structure Considering Time-delay of Hydrolic Actuator. \textit{Amirkabir Journal of Civil Engineering}, 2019. 51(3): p. 391-400. (Persian)} \includegraphics[height=9pt]{icons/hand-cursor.png}
+
+\Gap
+\endgroup
+
+\BigGap
+\SubSection
+{Conferences}
+{Conferences}
+{PDF:Conferences}
+% Declare a new group to limit the scope of \MaxNumberedItem to this subsection.
+\begingroup
+\renewcommand{\MaxNumberedItem}{[88]}
+\BigGap
+\NumberedItem{[4]}
+\href{https://ieeexplore.ieee.org/document/9118277}
+{\underline{A, Safi}, and E. Khanmirza. A Criticism of Position Control of the Inverted Pendulum with Biased Angle Measurements Using Double-Loop PID. in \textit{2020 Advances in Science and Engineering Technology International Conferences (ASET)}. 2020, Dubai, United Arab Emirates.}
+\includegraphics[height=9pt]{icons/hand-cursor.png}
+
+\Gap
+\NumberedItem{[5]}
+\href{https://ieeexplore.ieee.org/document/9663459}
+{\underline{A, Safi}, F. Namdarpour and E. Khanmirza. On the effectiveness of Stable Model Predictive vs. Adaptive Fuzzy Sliding Mode Method in synthesizing the controller for High-Speed Trains. in \textit{2021 9th RSI International Conference on Robotics and Mechatronics (ICRoM)}, Tehran, Iran, Islamic Republic of. 2021, pp. 293-300}
+\includegraphics[height=9pt]{icons/hand-cursor.png}
+
+\Gap
+\endgroup
+
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Projects %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\textcolor{Forestg}{\hrule height 0.1cm}
 
 \Section
 {Projects}
 {Projects}
 {PDF:Projects}
+\textcolor{Forestg}{\vspace{0.05cm}\hrule height 0.1cm}\BigGap
+\BulletItem
+Control Design and Implementation of a Three Tank Experimental Device (A Hybrid Dynamical System)
 
-\Entry
-\textbf{See LinkedIn Profile}, +11 Finished Projects, +4 Ongoing projects
-\Gap
-\enspace Use The Link Below or Scan The code at The Top of The First Page
-\newline
- \href{https://www.linkedin.com/in/safi-ali}
-{\enspace https://www.linkedin.com/in/safi-ali} \includegraphics[height=9pt]{icons/hand-cursor.png}
-
+\BulletItem
+Implementation of Modern Control and Feedback Linearization Methods on Quadrotors
+\BulletItem
+Distributed Control of Several Quadrotors Considering Delay Effects
+\BulletItem
+Article 1
+\BulletItem
+Article 2
 
 %%%%%%%%%%%%%%%
 %% LANGUAGES %%
 %%%%%%%%%%%%%%%
-
-\textcolor{Forestg}{\hrule height 0.1cm}
-
 \Section
-{Languages}
-{Languages}
-{PDF:Languages}
-
+{English Test}
+{English Test}
+{PDF:English Test}
+\textcolor{Forestg}{\vspace{0.05cm}\hrule height 0.1cm}\BigGap
 \BulletItem
-Persian: Native proficiency.
-
-\Gap
-\BulletItem
-English: Full professional proficiency.
-
-\Gap
-\BulletItem
-Arabic: Elementary proficiency.
+TOEFL(Academic): 105 (overall score)
+\newline
+\textbullet Listening: 105  \hspace{10mm}\textbullet\ Speaking: 105
+\newline
+\textbullet Reading: 105  \hspace{11.5mm}\textbullet\ Writing: 105
 
 %%%%%%%%%%%%
 %% SKILLS %%
 %%%%%%%%%%%%
 
-\textcolor{Forestg}{\hrule height 0.1cm}
-
 \Section
 {Skills}
 {Skills}
 {PDF:Skills}
-
+\textcolor{Forestg}{\vspace{0.05cm}\hrule height 0.1cm}\BigGap
 \BulletItem
 \textit{Type Setting}
 \newline
@@ -416,18 +494,17 @@ Arabic: Elementary proficiency.
 \textit{Programming Language}
 \newline
 MATLAB \textbullet\ 
-Arduino \textbullet\ 
-C/C++ \textbullet\ 
-Ladder logic 
-\newline
-\textit{Familiar With:} Python \textbullet\ HTML
+C++ (Arduino variant) \textbullet\ 
+Python \textbullet\ 
+Ladder logic
 \\
 \vspace{5pt}
 \BulletItem
 \textit{Softwares}
 \newline
 MATLAB \textbullet\ 
-Arduino \textbullet\ 
+Visual Studio Code \textbullet\ 
+Arduino IDE \textbullet\ 
 Simulink \textbullet\ 
 Catia \textbullet\
 SolidWorks \textbullet\
@@ -445,8 +522,8 @@ Altium Designer
 \BulletItem
 \textit{Toolboxes}
 \newline
-HYSDEL Toolbox \textbullet\
 YALMIP Optimisation Toolbox \textbullet\
+HYSDEL Toolbox \textbullet\
 MATLAB Optimisation Toolbox \textbullet\
 MATLAB Identification Toolbox \textbullet\
 DDEBiftool Toolbox \textbullet\
@@ -462,6 +539,7 @@ Model Predictive Control (MPC) \textbullet\
 Hybrid Dynamical Systems \textbullet\
 Adaptive Control \textbullet\
 Modern Control Theory \textbullet\
+Sliding Mode Control (SMC) \textbullet\
 Fuzzy Logic \textbullet\
 Genetic Algorithms \textbullet\ 
 Dynamic Simulation \textbullet\
@@ -484,49 +562,22 @@ Internet Protocol Suite (TCP/IP) \textbullet\
 Internet of Things (IoT) \textbullet\
 Web Design \textbullet\
 JSON \textbullet\
-Serial Communications
+Serial Communications \textbullet\ Modbus
 \\
 \vspace{5pt}
 \BulletItem
 \textit{Other Softwares}
 \newline
 WordPress \textbullet\ Adobe Photoshop \textbullet\ Multimedia Builder \textbullet\ Adobe Premiere
-%%%%%%%%%%%%%%%
-%% INTERESTS %%
-%%%%%%%%%%%%%%%
-
-\textcolor{Forestg}{\hrule height 0.1cm}
-
-\Section
-{Interests}
-{Interests}
-{PDF:Interests}
-
-\Entry
-\BulletItem
-Control Theory (MPC, LMI, LQR, LQG, SMC, Fuzzy, Adaptive)\\
-\BulletItem
-Hybrid Dynamical Systems\\
-\BulletItem
-Delay Effect Analysis\\
-\BulletItem
-Mechatronics\\
-\BulletItem
-Internet of Things (IoT)\\
-\BulletItem
-Automation\\
-
 %%%%%%%%%%%%%%%%
 %% REFERENCES %%
 %%%%%%%%%%%%%%%%
-
-\textcolor{Forestg}{\hrule height 0.1cm}
 
 \Section
 {References}
 {References}
 {PDF:References}
-
+\textcolor{Forestg}{\vspace{0.05cm}\hrule height 0.1cm}\BigGap
 \BulletItem
 \textbf{Dr. Esmaeel Khanmirza}
 \newline
@@ -534,8 +585,7 @@ Associate Professor in Mechanical Engineering
 \newline
 Iran University of Science and Technology
 \newline
-\href{mailto:khanmirza@iust.ac.ir}
-{\includegraphics[height=7pt]{icons/SendEmail.png} Khanmirza@iust.ac.ir}
+\includegraphics[height=7pt]{icons/SendEmail.png} Khanmirza@iust.ac.ir
 \,\SubBulletSymbol\,
 \includegraphics[height=7pt]{icons/phone1.png} +98\,(21)\,7724-0469
 
@@ -547,8 +597,7 @@ Assistant Professor in Mechanical Engineering
 \newline
 Golpayegan University of Technology
 \newline
-\href{mailto:nasiri@gut.ac.ir}
-{\includegraphics[height=7pt]{icons/SendEmail.png} Nasiri@gut.ac.ir}
+\includegraphics[height=7pt]{icons/SendEmail.png} Nasiri@gut.ac.ir
 
 \end{Body}
 
