@@ -1,13 +1,13 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.5.3)  24 SEP 2023 02:29
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.5.3)  28 SEP 2023 22:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Resume.tex
-(./Resume.tex
+**CV.tex
+(./CV.tex
 LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-04-29> (./ResumeTemplate.cls
+L3 programming layer <2022-04-29> (./CVTemplate.cls
 
-LaTeX Warning: You have requested document class `ResumeTemplate',
+LaTeX Warning: You have requested document class `CVTemplate',
                but the document class provides `simpleresumecv'.
 
 Document Class: simpleresumecv 2016/12/25 Simple Resume CV https://github.com/z
@@ -427,8 +427,8 @@ Package: inputenc 2021/02/14 v1.3d Input encoding file
 
 Package inputenc Warning: inputenc package ignored with utf8 based engines.
 
-) (./Resume.aux)
-\openout1 = `Resume.aux'.
+) (./CV.aux)
+\openout1 = `CV.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
 LaTeX Font Info:    ... okay on input line 49.
@@ -514,9 +514,9 @@ LaTeX Info: Redefining \ref on input line 49.
 LaTeX Info: Redefining \pageref on input line 49.
 LaTeX Info: Redefining \nameref on input line 49.
 
-(./Resume.out) (./Resume.out)
+(./CV.out) (./CV.out)
 \@outlinefile=\write3
-\openout3 = `Resume.out'.
+\openout3 = `CV.out'.
 
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
@@ -592,82 +592,107 @@ File: icons/SendEmail.png Graphic file (type bmp)
 <icons/SendEmail.png>
 File: icons/phone1.png Graphic file (type bmp)
 <icons/phone1.png>
-File: icons/hand-cursor.png Graphic file (type bmp)
-<icons/hand-cursor.png>
-File: icons/hand-cursor.png Graphic file (type bmp)
-<icons/hand-cursor.png>
+
+Package xcolor Warning: Incompatible color definition on input line 62.
+
 File: icons/hand-cursor.png Graphic file (type bmp)
 <icons/hand-cursor.png>
 
-Package xcolor Warning: Incompatible color definition on input line 73.
+Package xcolor Warning: Incompatible color definition on input line 64.
+
+File: icons/hand-cursor.png Graphic file (type bmp)
+<icons/hand-cursor.png>
+
+Package xcolor Warning: Incompatible color definition on input line 66.
+
+File: icons/hand-cursor.png Graphic file (type bmp)
+<icons/hand-cursor.png>
+
+Package xcolor Warning: Incompatible color definition on input line 68.
+
+File: icons/hand-cursor.png Graphic file (type bmp)
+<icons/hand-cursor.png>
+
+Package xcolor Warning: Incompatible color definition on input line 75.
 
 
-Overfull \hbox (43.96811pt too wide) in paragraph at lines 73--73
+Overfull \hbox (43.96811pt too wide) in paragraph at lines 75--75
 [][][][][][][][][]  
  []
 
 
-Package xcolor Warning: Incompatible color definition on input line 74.
+Package xcolor Warning: Incompatible color definition on input line 76.
 
 
-Package xcolor Warning: Incompatible color definition on input line 88.
+Package xcolor Warning: Incompatible color definition on input line 90.
 
 
-Overfull \hbox (51.92221pt too wide) in paragraph at lines 88--88
+Overfull \hbox (51.92221pt too wide) in paragraph at lines 90--90
 [][][][][][][][][]  
  []
 
 
-Package xcolor Warning: Incompatible color definition on input line 89.
+Package xcolor Warning: Incompatible color definition on input line 91.
 
 
-Package xcolor Warning: Incompatible color definition on input line 94.
+Package xcolor Warning: Incompatible color definition on input line 96.
 
 
-Package xcolor Warning: Incompatible color definition on input line 121.
+Package xcolor Warning: Incompatible color definition on input line 120.
+
+
+Package xcolor Warning: Incompatible color definition on input line 144.
+
+
+Overfull \hbox (47.68393pt too wide) in paragraph at lines 144--144
+[][][][][][][][][]  
+ []
 
 
 Package xcolor Warning: Incompatible color definition on input line 145.
 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 149.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 149.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 149.
 
-Overfull \hbox (47.68393pt too wide) in paragraph at lines 145--145
+Package xcolor Warning: Incompatible color definition on input line 177.
+
+
+Overfull \hbox (115.17905pt too wide) in paragraph at lines 177--177
 [][][][][][][][][]  
  []
 
-
-Package xcolor Warning: Incompatible color definition on input line 146.
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 150.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 150.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 150.
 
 Package xcolor Warning: Incompatible color definition on input line 178.
 
 
-Overfull \hbox (115.17905pt too wide) in paragraph at lines 178--178
+Package xcolor Warning: Incompatible color definition on input line 183.
+
+
+Package xcolor Warning: Incompatible color definition on input line 192.
+
+
+Package xcolor Warning: Incompatible color definition on input line 205.
+
+
+Package xcolor Warning: Incompatible color definition on input line 220.
+
+
+Package xcolor Warning: Incompatible color definition on input line 220.
+
+
+Package xcolor Warning: Incompatible color definition on input line 229.
+
+
+Package xcolor Warning: Incompatible color definition on input line 244.
+
+
+Overfull \hbox (114.06577pt too wide) in paragraph at lines 244--244
 [][][][][][][][][]  
  []
-
-
-Package xcolor Warning: Incompatible color definition on input line 179.
-
-
-Package xcolor Warning: Incompatible color definition on input line 185.
-
-
-Package xcolor Warning: Incompatible color definition on input line 196.
-
-
-Package xcolor Warning: Incompatible color definition on input line 213.
-
-
-Package xcolor Warning: Incompatible color definition on input line 232.
-
-
-Package xcolor Warning: Incompatible color definition on input line 232.
 
 
 Package xcolor Warning: Incompatible color definition on input line 245.
@@ -676,125 +701,150 @@ Package xcolor Warning: Incompatible color definition on input line 245.
 
 ]
 
-Package xcolor Warning: Incompatible color definition on input line 265.
+Package xcolor Warning: Incompatible color definition on input line 255.
 
 
-Overfull \hbox (114.06577pt too wide) in paragraph at lines 265--265
+Package xcolor Warning: Incompatible color definition on input line 279.
+
+
+Package xcolor Warning: Incompatible color definition on input line 284.
+
+
+Package xcolor Warning: Incompatible color definition on input line 289.
+
+
+Package xcolor Warning: Incompatible color definition on input line 294.
+
+
+Package xcolor Warning: Incompatible color definition on input line 299.
+
+
+Package xcolor Warning: Incompatible color definition on input line 307.
+
+
+Overfull \hbox (90.4476pt too wide) in paragraph at lines 307--307
 [][][][][][][][][]  
  []
 
 
-Package xcolor Warning: Incompatible color definition on input line 266.
+Package xcolor Warning: Incompatible color definition on input line 308.
 
 
-Package xcolor Warning: Incompatible color definition on input line 273.
+Package xcolor Warning: Incompatible color definition on input line 313.
 
 
-Package xcolor Warning: Incompatible color definition on input line 304.
-
-
-Package xcolor Warning: Incompatible color definition on input line 309.
-
-
-Package xcolor Warning: Incompatible color definition on input line 314.
-
-
-Package xcolor Warning: Incompatible color definition on input line 319.
-
-
-Package xcolor Warning: Incompatible color definition on input line 324.
+Package xcolor Warning: Incompatible color definition on input line 321.
 
 
 Package xcolor Warning: Incompatible color definition on input line 332.
 
 
-Overfull \hbox (34.88608pt too wide) in paragraph at lines 332--332
+Package xcolor Warning: Incompatible color definition on input line 343.
+
+
+Package xcolor Warning: Incompatible color definition on input line 354.
+
+
+Package xcolor Warning: Incompatible color definition on input line 372.
+
+
+Overfull \hbox (66.93198pt too wide) in paragraph at lines 372--372
 [][][][][][][][][]  
  []
 
 
-Package xcolor Warning: Incompatible color definition on input line 333.
+Package xcolor Warning: Incompatible color definition on input line 373.
 
 
-Package xcolor Warning: Incompatible color definition on input line 338.
+Package xcolor Warning: Incompatible color definition on input line 377.
 
 
-Package xcolor Warning: Incompatible color definition on input line 346.
+Package xcolor Warning: Incompatible color definition on input line 384.
+
+File: icons/hand-cursor.png Graphic file (type bmp)
+<icons/hand-cursor.png>
+
+Package xcolor Warning: Incompatible color definition on input line 387.
 
 
-Package xcolor Warning: Incompatible color definition on input line 357.
+Package xcolor Warning: Incompatible color definition on input line 397.
+
+File: icons/hand-cursor.png Graphic file (type bmp)
+<icons/hand-cursor.png>
+
+Package xcolor Warning: Incompatible color definition on input line 399.
 
 
-Package xcolor Warning: Incompatible color definition on input line 368.
+Package xcolor Warning: Incompatible color definition on input line 407.
+
+File: icons/hand-cursor.png Graphic file (type bmp)
+<icons/hand-cursor.png>
+
+Package xcolor Warning: Incompatible color definition on input line 409.
 
 
-Package xcolor Warning: Incompatible color definition on input line 379.
+Package xcolor Warning: Incompatible color definition on input line 416.
 
 
-Package xcolor Warning: Incompatible color definition on input line 390.
+Package xcolor Warning: Incompatible color definition on input line 423.
+
+File: icons/hand-cursor.png Graphic file (type bmp)
+<icons/hand-cursor.png>
+
+Package xcolor Warning: Incompatible color definition on input line 426.
 
 
-Overfull \hbox (66.93198pt too wide) in paragraph at lines 390--390
+Package xcolor Warning: Incompatible color definition on input line 435.
+
+File: icons/hand-cursor.png Graphic file (type bmp)
+<icons/hand-cursor.png>
+
+Package xcolor Warning: Incompatible color definition on input line 438.
+
+
+Package xcolor Warning: Incompatible color definition on input line 454.
+
+
+Overfull \hbox (43.77768pt too wide) in paragraph at lines 454--454
 [][][][][][][][][]  
  []
 
 
-Package xcolor Warning: Incompatible color definition on input line 391.
+Package xcolor Warning: Incompatible color definition on input line 455.
 
-File: icons/hand-cursor.png Graphic file (type bmp)
-<icons/hand-cursor.png>
-File: icons/hand-cursor.png Graphic file (type bmp)
-<icons/hand-cursor.png>
-File: icons/hand-cursor.png Graphic file (type bmp)
-<icons/hand-cursor.png>
-File: icons/hand-cursor.png Graphic file (type bmp)
-<icons/hand-cursor.png>
-File: icons/hand-cursor.png Graphic file (type bmp)
-<icons/hand-cursor.png>
 [2]
 
-Package xcolor Warning: Incompatible color definition on input line 452.
+Package xcolor Warning: Incompatible color definition on input line 490.
 
 
-Overfull \hbox (43.77768pt too wide) in paragraph at lines 452--452
+Overfull \hbox (65.18881pt too wide) in paragraph at lines 490--490
 [][][][][][][][][]  
  []
 
 
-Package xcolor Warning: Incompatible color definition on input line 453.
+Package xcolor Warning: Incompatible color definition on input line 491.
 
 
-Package xcolor Warning: Incompatible color definition on input line 488.
+Package xcolor Warning: Incompatible color definition on input line 510.
 
 
-Overfull \hbox (65.18881pt too wide) in paragraph at lines 488--488
+Overfull \hbox (27.67905pt too wide) in paragraph at lines 510--510
 [][][][][][][][][]  
  []
 
 
-Package xcolor Warning: Incompatible color definition on input line 489.
+Package xcolor Warning: Incompatible color definition on input line 511.
 
 
-Package xcolor Warning: Incompatible color definition on input line 508.
+Package xcolor Warning: Incompatible color definition on input line 623.
 
 
-Overfull \hbox (27.67905pt too wide) in paragraph at lines 508--508
+Overfull \hbox (58.78256pt too wide) in paragraph at lines 623--623
 [][][][][][][][][]  
  []
 
 
-Package xcolor Warning: Incompatible color definition on input line 509.
-
-
-Package xcolor Warning: Incompatible color definition on input line 620.
-
-
-Overfull \hbox (58.78256pt too wide) in paragraph at lines 620--620
-[][][][][][][][][]  
- []
-
-
-Package xcolor Warning: Incompatible color definition on input line 621.
+Package xcolor Warning: Incompatible color definition on input line 624.
 
 File: icons/SendEmail.png Graphic file (type bmp)
 <icons/SendEmail.png>
@@ -802,17 +852,17 @@ File: icons/phone1.png Graphic file (type bmp)
 <icons/phone1.png>
 File: icons/SendEmail.png Graphic file (type bmp)
 <icons/SendEmail.png>
-[3] (./Resume.aux)
-Package rerunfilecheck Info: File `Resume.out' has not changed.
-(rerunfilecheck)             Checksum: 0B0C543C48F7E2A4B02D76117B19B9A9;1569.
+[3] (./CV.aux)
+Package rerunfilecheck Info: File `CV.out' has not changed.
+(rerunfilecheck)             Checksum: 418B7AF57A4E26C2136D994D2F20A1F3;1403.
  ) 
 Here is how much of TeX's memory you used:
- 19264 strings out of 476143
- 369220 string characters out of 5812297
- 725955 words of memory out of 5000000
- 39845 multiletter control sequences out of 15000+600000
- 472582 words of font info for 66 fonts, out of 8000000 for 9000
+ 19261 strings out of 476143
+ 368959 string characters out of 5812297
+ 725743 words of memory out of 5000000
+ 39843 multiletter control sequences out of 15000+600000
+ 472574 words of font info for 65 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 87i,9n,91p,390b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,9n,91p,386b,439s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Resume.pdf (3 pages).
+Output written on CV.pdf (3 pages).

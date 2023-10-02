@@ -90,9 +90,9 @@ includefoot]{geometry}
 \RequirePackage[usenames]{color}
 % \definecolor{MyDarkBlue}{RGB}{0,90,160}
 % {\color{MyDarkBlue}This text is dark blue}
-\definecolor{Forestg}{RGB}{0, 150, 0}
+\definecolor{Forestg}{RGB}{0, 0, 139}
 \definecolor{Lightg}{RGB}{102, 255, 102}
-\definecolor{OrangeY}{RGB}{255, 110, 0}
+\definecolor{OrangeY}{RGB}{0, 0, 139}
 % Current date and time.
 \RequirePackage{datetime2}
 
