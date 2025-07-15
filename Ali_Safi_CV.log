@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.10) (preloaded format=xelatex 2025.5.1)  15 JUL 2025 19:21
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.10) (preloaded format=xelatex 2025.5.1)  15 JUL 2025 19:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./Resume.tex
-(Resume.tex
+**./Ali_Safi_CV.tex
+(Ali_Safi_CV.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
 (CVTemplate.cls
@@ -448,8 +448,8 @@ Package: inputenc 2021/02/14 v1.3d Input encoding file
 
 Package inputenc Warning: inputenc package ignored with utf8 based engines.
 
-) (Resume.aux)
-\openout1 = `Resume.aux'.
+) (Ali_Safi_CV.aux)
+\openout1 = `Ali_Safi_CV.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
 LaTeX Font Info:    ... okay on input line 49.
@@ -521,9 +521,9 @@ LaTeX Font Info:    ... okay on input line 49.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 49.
-(Resume.out) (Resume.out)
+(Ali_Safi_CV.out) (Ali_Safi_CV.out)
 \@outlinefile=\write3
-\openout3 = `Resume.out'.
+\openout3 = `Ali_Safi_CV.out'.
 
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
@@ -870,21 +870,21 @@ File: icons/SendEmail.png Graphic file (type bmp)
 <icons/SendEmail.png>
 File: icons/SendEmail.png Graphic file (type bmp)
 <icons/SendEmail.png>
-[3] (Resume.aux)
+[3] (Ali_Safi_CV.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
-Package rerunfilecheck Info: File `Resume.out' has not changed.
+Package rerunfilecheck Info: File `Ali_Safi_CV.out' has not changed.
 (rerunfilecheck)             Checksum: 174C0DE583EF4EE310120D0F6A9B196A;1403.
  ) 
 Here is how much of TeX's memory you used:
  19151 strings out of 410379
- 361604 string characters out of 5788458
+ 361704 string characters out of 5788458
  1936416 words of memory out of 5000000
  40303 multiletter control sequences out of 15000+600000
  561376 words of font info for 72 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 94i,9n,107p,392b,460s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,9n,107p,397b,460s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Resume.pdf (3 pages).
+Output written on Ali_Safi_CV.pdf (3 pages).
