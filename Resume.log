@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.10) (preloaded format=xelatex 2025.5.1)  15 JUL 2025 19:04
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.10) (preloaded format=xelatex 2025.5.1)  15 JUL 2025 19:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./CV.tex
-(CV.tex
+**./Resume.tex
+(Resume.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
 (CVTemplate.cls
@@ -448,8 +448,8 @@ Package: inputenc 2021/02/14 v1.3d Input encoding file
 
 Package inputenc Warning: inputenc package ignored with utf8 based engines.
 
-) (CV.aux)
-\openout1 = `CV.aux'.
+) (Resume.aux)
+\openout1 = `Resume.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
 LaTeX Font Info:    ... okay on input line 49.
@@ -462,7 +462,8 @@ LaTeX Font Info:    ... okay on input line 49.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 49.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 4
 9.
- (C:\Users\Ali\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
+
+(C:\Users\Ali\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 49.
@@ -479,7 +480,8 @@ LaTeX Font Info:    ... okay on input line 49.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 49.
 LaTeX Font Info:    Trying to load font information for T3+cmr on input line 49
 .
- (C:\Users\Ali\AppData\Local\Programs\MiKTeX\tex/latex/tipa\t3cmr.fd
+
+(C:\Users\Ali\AppData\Local\Programs\MiKTeX\tex/latex/tipa\t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 49.
@@ -519,9 +521,9 @@ LaTeX Font Info:    ... okay on input line 49.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 49.
-(CV.out) (CV.out)
+(Resume.out) (Resume.out)
 \@outlinefile=\write3
-\openout3 = `CV.out'.
+\openout3 = `Resume.out'.
 
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
@@ -868,21 +870,21 @@ File: icons/SendEmail.png Graphic file (type bmp)
 <icons/SendEmail.png>
 File: icons/SendEmail.png Graphic file (type bmp)
 <icons/SendEmail.png>
-[3] (CV.aux)
+[3] (Resume.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
-Package rerunfilecheck Info: File `CV.out' has not changed.
+Package rerunfilecheck Info: File `Resume.out' has not changed.
 (rerunfilecheck)             Checksum: 174C0DE583EF4EE310120D0F6A9B196A;1403.
  ) 
 Here is how much of TeX's memory you used:
  19151 strings out of 410379
- 361524 string characters out of 5788458
+ 361604 string characters out of 5788458
  1936416 words of memory out of 5000000
  40303 multiletter control sequences out of 15000+600000
  561376 words of font info for 72 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 94i,9n,107p,388b,460s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,9n,107p,392b,460s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on CV.pdf (3 pages).
+Output written on Resume.pdf (3 pages).
