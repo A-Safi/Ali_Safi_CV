@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.10) (preloaded format=xelatex 2025.5.1)  26 AUG 2025 16:53
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.10) (preloaded format=xelatex 2025.5.1)  28 OCT 2025 14:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -866,6 +866,8 @@ Overfull \hbox (58.78256pt too wide) in paragraph at lines 620--620
 
 Package xcolor Warning: Incompatible color definition on input line 621.
 
+File: icons/SendEmail.png Graphic file (type bmp)
+<icons/SendEmail.png>
 File: icons/SendEmail.png Graphic file (type bmp)
 <icons/SendEmail.png>
 File: icons/SendEmail.png Graphic file (type bmp)
